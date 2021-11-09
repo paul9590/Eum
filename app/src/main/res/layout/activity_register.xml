@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.08"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <TextView
+        android:id="@+id/infoTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="닉네임 :"
+        app:layout_constraintBaseline_toBaselineOf="@id/editNameSI"
+        app:layout_constraintTop_toTopOf="@id/editNameSI"
+        app:layout_constraintBottom_toBottomOf="@id/editNameSI"
+        app:layout_constraintLeft_toRightOf="@id/guideLeft"
+        app:layout_constraintRight_toLeftOf="@id/editNameSI"
+        app:layout_constraintHorizontal_weight="2"/>
+
+
+    <EditText
+        android:id="@+id/editNameSI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/guideTop"
+        app:layout_constraintLeft_toRightOf="@id/infoTxt"
+        app:layout_constraintRight_toLeftOf="@id/guideRight"
+        app:layout_constraintHorizontal_weight="3"/>
+
+    <TextView
+        android:id="@+id/infoTxt2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="주소 :"
+        app:layout_constraintBaseline_toBaselineOf="@id/editAddrSI"
+        app:layout_constraintTop_toTopOf="@id/editAddrSI"
+        app:layout_constraintBottom_toBottomOf="@id/editAddrSI"
+        app:layout_constraintLeft_toRightOf="@id/guideLeft"
+        app:layout_constraintRight_toLeftOf="@id/editAddrSI"
+        app:layout_constraintHorizontal_weight="1"/>
+
+    <EditText
+        android:id="@+id/editAddrSI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/editNameSI"
+        app:layout_constraintLeft_toRightOf="@id/infoTxt2"
+        app:layout_constraintRight_toLeftOf="@id/guideRight"
+        app:layout_constraintHorizontal_weight="3"/>
+
+    <TextView
+        android:id="@+id/infoTxt3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="직업 :"
+        app:layout_constraintBaseline_toBaselineOf="@id/spinJobSI"
+        app:layout_constraintTop_toTopOf="@id/spinJobSI"
+        app:layout_constraintBottom_toBottomOf="@id/spinJobSI"
+        app:layout_constraintLeft_toRightOf="@id/guideLeft"
+        app:layout_constraintRight_toLeftOf="@id/spinJobSI"
+        app:layout_constraintHorizontal_weight="1"/>
+
+    <Spinner
+        android:id="@+id/spinJobSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/editAddrSI"
+        app:layout_constraintLeft_toRightOf="@id/infoTxt3"
+        app:layout_constraintRight_toLeftOf="@id/guideRight"
+        app:layout_constraintHorizontal_weight="3"/>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원 가입"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/spinJobSI"
+        app:layout_constraintLeft_toRightOf="@id/guideLeft"
+        app:layout_constraintRight_toLeftOf="@id/guideRight"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
