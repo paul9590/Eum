@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">이음</string>
+    <string name="SERVERIP">192.168.0.81</string>
 </resources>

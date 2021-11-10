@@ -37,8 +37,9 @@
         android:id="@+id/webAddr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/guideBottom"
         app:layout_constraintLeft_toRightOf="@id/guideLeft"
-        app:layout_constraintTop_toBottomOf="@id/guideTop"
-        app:layout_constraintRight_toLeftOf="@id/guideRight"/>
+        app:layout_constraintRight_toLeftOf="@id/guideRight"
+        app:layout_constraintTop_toBottomOf="@id/guideTop" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

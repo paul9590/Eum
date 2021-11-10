@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "325660491643",
+    "project_id": "euum-9a52d",
+    "storage_bucket": "euum-9a52d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325660491643:android:29d4cd98dbcbd7bbf4c7de",
+        "android_client_info": {
+          "package_name": "com.pingmo.eum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325660491643-fkqcjtam5k3psmlrpufr6haj9j14ejki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pingmo.eum",
+            "certificate_hash": "945c5d9dc121423476a4f1e28f3b4de8111e0d2f"
+          }
+        },
+        {
+          "client_id": "325660491643-ld9vo1gp0vdkr1aqlode1ha7jesis4dq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwNCDcty_cGGf5rUs-IEsXXSQqSJBrj18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325660491643-ld9vo1gp0vdkr1aqlode1ha7jesis4dq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

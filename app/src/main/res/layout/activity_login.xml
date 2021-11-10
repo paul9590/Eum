@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="바꾸기"
+        android:text="로그인"
         app:layout_constraintTop_toBottomOf="@id/btnLogin"
         app:layout_constraintLeft_toRightOf="@id/guideLeft"
         app:layout_constraintRight_toLeftOf="@id/btnOut" />
